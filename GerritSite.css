@@ -53,6 +53,17 @@ a {
 	color: #17A3C1;	
 	text-decoration: none;
 }
+
+#logo {
+  display: block !important;
+  margin-bottom: -55px;
+  padding-left: 1px;
+  padding-right: 5px;
+  position: relative;
+  top: -95px;
+  width:1px;
+}
+
 input[type="text"] {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
@@ -84,12 +95,19 @@ button {
 
 /* Top Menu */
 
+/* Top Menu */
+
 .gerritTopMenu#gerrit_topmenu {
-	left: auto;
-	margin: 0 auto;
+/*	left:55px;
+	margin: 0 auto;*/
 	box-sizing: border-box;
-	max-width: 1600px;
+	max-width: 1800px;
 	margin-top: 16px;
+
+  left: 120px;
+  margin-right: 125px;
+  margin-bottom: 5px;
+  position: relative;
 }
 .gerritTopMenu .gwt-TabBar .gwt-TabBarItem {
 	font-size: 16px;
